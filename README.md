@@ -11,18 +11,22 @@ Repositório com os exercícios práticos da disciplina de Ciência de Dados, de
 ## Exercícios
 
 ### Exercício 1 - Introdução ao Python
+
 **Arquivo:** `exercicio1_introducao_python.ipynb`
 
 Familiarização com o ambiente Anaconda e com a linguagem Python:
+
 - Listagem de pacotes instalados com `conda list`
 - Verificação da versão do Python
 - Loop `for` com `range()`
 - Estrutura de dados `dict`
 
 ### Exercício 2 - Carregando os Dados com pandas
+
 **Arquivo:** `exercicio2_carregando_dados.ipynb`
 
 Carregamento e exploração inicial do dataset de inadimplência de cartão de crédito:
+
 - Importação do pandas
 - Leitura de arquivo Excel com `pd.read_excel()`
 - Exploração dos dados: dimensões, tipos, estatísticas e valores faltantes

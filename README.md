@@ -4,15 +4,31 @@ Repositório com os exercícios práticos da disciplina de Ciência de Dados, de
 
 ## Ambiente
 
-- Python 3.12 (MSYS2 / Miniconda)
+- Python 3.12 (MSYS2)
 - Jupyter Notebook
-- pandas, numpy, xlrd
+- pandas, numpy, matplotlib, xlrd
 
-## Exercícios
+## Estrutura
+
+```
+data_science/
+├── assignment1/
+│   ├── data/
+│   │   └── default_of_credit_card_clients__courseware_version_1_21_19.xls
+│   ├── exercicio1_introducao_python.ipynb
+│   └── exercicio2_carregando_dados.ipynb
+├── assignment2/
+│   ├── data/
+│   │   └── default_of_credit_card_clients__courseware_version_1_21_19.xls
+│   └── exercicio1_caracteristicas_financeiras.ipynb
+└── README.md
+```
+
+## Assignment 1
 
 ### Exercício 1 - Introdução ao Python
 
-**Arquivo:** `exercicio1_introducao_python.ipynb`
+**Arquivo:** `assignment1/exercicio1_introducao_python.ipynb`
 
 Familiarização com o ambiente Anaconda e com a linguagem Python:
 
@@ -23,13 +39,27 @@ Familiarização com o ambiente Anaconda e com a linguagem Python:
 
 ### Exercício 2 - Carregando os Dados com pandas
 
-**Arquivo:** `exercicio2_carregando_dados.ipynb`
+**Arquivo:** `assignment1/exercicio2_carregando_dados.ipynb`
 
 Carregamento e exploração inicial do dataset de inadimplência de cartão de crédito:
 
 - Importação do pandas
 - Leitura de arquivo Excel com `pd.read_excel()`
 - Exploração dos dados: dimensões, tipos, estatísticas e valores faltantes
+
+## Assignment 2
+
+### Exercício 1 - Explorando as Características Financeiras
+
+**Arquivo:** `assignment2/exercicio1_caracteristicas_financeiras.ipynb`
+
+Análise das características financeiras do dataset com visualizações e transformações:
+
+- Criação de listas com os nomes das características (`BILL_AMT1–6`, `PAY_AMT1–6`)
+- Síntese estatística com `.describe()`
+- Histogramas em grade 2x3 com matplotlib
+- Identificação de pagamentos iguais a zero com máscara booleana
+- Transformação logarítmica (`np.log10`) dos pagamentos diferentes de zero
 
 ## Dataset
 
